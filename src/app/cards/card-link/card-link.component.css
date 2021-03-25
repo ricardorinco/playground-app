@@ -1,0 +1,36 @@
+a,
+a:visited,
+a:hover {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #125699;
+}
+
+.card-link {
+    display: flex;
+}
+
+.card-link.card-small {
+    height: 16px;
+    width: 168px;
+}
+
+.card-link svg.material-icons path {
+    fill: #888;
+}
+
+.card-container .card-link:not(.highlight-card):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+}
+
+svg.material-icons {
+    height: 24px;
+    width: auto;
+}
+
+svg.material-icons:not(:last-child) {
+    margin-right: 8px;
+}
