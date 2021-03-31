@@ -20,9 +20,7 @@ p {
     margin: 0;
 }
 
-.spacer {
-    flex: 1;
-}
+
 
 .toolbar {
     position: absolute;
